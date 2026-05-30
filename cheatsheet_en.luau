@@ -280,7 +280,7 @@ local tab1 = {true, false, "and an impastar"}
 
 -- To index a table, the main notation is [index]
 
-print(tab1[1]) --> true (la première valeure est à l'index 1, au lieu de l'index 0 comme en python)
+print(tab1[1]) --> true (the first value is at index 1, instead of being at index 0 like python or most other languages)
 print(tab1[2]) --> false
 print(tab1[3]) --> "and an impastar"
 
@@ -317,9 +317,9 @@ print(tab2[Index]) --> 1
 tab2[tab1] = "Other programming languages generally don't allow this"
 tab2[tab2] = "and this is just cursed..."
 
--- Ici, j'ai utilisé les tableaus eux mêmes comme index (si j'avais à deviné, lua prend peut être l'adresse mémoire du tableau comme "identifiant"?)
+-- Here, I've used the tables themselves as the index (if I had to guess, I'd guess lua uses the memory adress of the tables as the "identifier"?)
 
-print(tab2[tab1]) --> "Les autres langages ne permettent généralement pas ça"
+print(tab2[tab1]) --> "Other programming languages generally don't allow this"
 print(tab2[tab2]) --> "and this is just cursed..."
 
 -- To remove an entry in a table, set its value to nil
@@ -755,7 +755,7 @@ print("5"..3) --> "53". And the opposite happens when doing string operations on
 
 print("a".."b") --> "ab", .. is the concatenation operator in lua
 
--- And probable other things I forgot
+-- And probably other things I forgot
 
 
 -- Other things I didn't mention in this document:
